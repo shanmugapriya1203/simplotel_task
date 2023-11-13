@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300&family=Playfair+Display&family=Poppins&family=Roboto:wght@500&display=swap');
 body {
-    font-family: 'Montserrat', sans-serif;
+   
     text-align: center;
     margin: 0;
     padding: 0;
@@ -11,7 +12,7 @@ body {
 }
 nav {
    
-    padding: 16px 0; 
+    padding: 12px 0; 
 }
 
 ul {
@@ -35,12 +36,53 @@ a {
     font-family: 'Playfair Display', serif;
 }
 
+
 .hero-image {
-    background-image: url('assets/img1.jpg'); 
+    background-image: url('assets/img1.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
+    position: relative;
 }
+
+.text-overlay {
+    position: absolute;
+    background-color: rgba(227, 99, 99, 0.7);
+    color: #fff;
+    padding: 14px;
+    top: 20%;
+    left: 6%; 
+    width: 43%;
+    z-index: 1;
+    height: 31%;
+}
+.text-content {
+    margin-top: 3px;
+    text-align: left;
+    padding: 7px;
+    padding-top: 2px;
+    padding-right: 55px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 2px;
+    letter-spacing: 0.1em; /* Adjust the letter spacing as needed */
+    word-spacing: 0.05em; /* Adjust the word spacing as needed */
+}
+
+.text-content h1 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+    letter-spacing: 0.02em; /* Adjust the letter spacing for h1 as needed */
+}
+
+.text-content p {
+    margin-top: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.03em; /* Adjust the letter spacing for p as needed */
+}
+
+
 
 .icons {
     display: flex;
